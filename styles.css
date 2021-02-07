@@ -1,0 +1,91 @@
+.piServer{
+    font-family: 'Courier New', Courier, monospace;
+    border-color: #333333;
+    border-style: solid;
+    width:  50%;
+    border-radius: 20px;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.piServer:first-child{
+
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+.piServer:last-child{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.underline{
+    margin-top: 30px;
+    width: 70%;
+    height: 5px;
+    border: none;
+}
+.githubPromo{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.btnCopy{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    border-color: #333333;
+    border-style:solid ;
+    border-radius: 20px;
+    border-width: 5px;
+
+    width: 50%;
+    height: 100px;
+
+    transition-duration: 0.4s;
+
+}
+.btnCopy:hover{
+    background-color: #013908;
+    color: #FFFFFF;
+}
+
+.mode-Button{
+    position: absolute;
+    float: left;
+    top: 10px;
+    left: 10px;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+    font-size: 20px;
+
+    border-radius: 10px;
+    border-style: none;
+
+    padding: 10px 15px;
+
+    background-color: #0c6216;
+    transition-duration: 0.3s;
+}
+.mode-Button:hover{
+    background-color: #00ec43;
+}
+.btnCopyText{
+    margin-top: 25px;
+
+    font-size: 40px;
+}
+.dark-mode{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+body{
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+
+    transition-duration: 00.4s;
+}
