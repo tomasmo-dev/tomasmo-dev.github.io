@@ -175,13 +175,17 @@ html, body{
     border-color: #000000;
     border-collapse: collapse;
 }
+.PyTable table{
+    padding: 15px;
+}
+
 .PyTable th{
     font-size: 25px;
     font-weight: bold;
 }
 .PyTable td{
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px;
 }
 .PyTable a{
