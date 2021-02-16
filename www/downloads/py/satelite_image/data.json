@@ -1,0 +1,7 @@
+{
+    "API_KEY":"MatqEaBKimdNrWH76g1SykjPbfmdTpOUFmyHsjfg",
+    "url":"https://api.nasa.gov/planetary/earth/imagery",
+    "lon":"15.8",
+    "lat":"50.1",
+    "dim":"0.5"
+}

@@ -1,5 +1,5 @@
 .piServer{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     border-color: #333333;
     border-style: solid;
     width:  50%;
@@ -11,9 +11,9 @@
 }
 .piServer:first-child{
 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .piServer:last-child{
@@ -27,28 +27,33 @@
     border: none;
 }
 .githubPromo{
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 30px;
+    font-size: 25px;
 }
 .btnCopy{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    position: absolute;
 
-    border-color: #333333;
-    border-style:solid ;
-    border-radius: 20px;
-    border-width: 5px;
+    top: 10px;
+    right: 10px;
+    float: right;
 
-    width: 50%;
-    height: 100px;
+    font-size: 30px;
+    color: #FFFFFF;
+
+    border-style:none ;
+    border-radius: 10px;
+
+    padding: 5px 10px 5px 10px;
+
+    background-color: #0c6216;
 
     transition-duration: 0.4s;
 
 }
 .btnCopy:hover{
-    background-color: #013908;
-    color: #FFFFFF;
+    background-color:  #00ec43;
 }
 
 .mode-Button{
@@ -72,11 +77,6 @@
 }
 .mode-Button:hover{
     background-color: #00ec43;
-}
-.btnCopyText{
-    margin-top: 25px;
-
-    font-size: 40px;
 }
 .dark-mode{
     background-color: #000000;

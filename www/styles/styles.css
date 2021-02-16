@@ -1,0 +1,204 @@
+
+.headerC{
+    background-image: linear-gradient(to right, rgb(54, 56, 199, 100), rgba(31, 107, 27, 100));
+
+    color: #FFFFFF;
+
+}
+.headerC:first-child{
+    padding-top: 20px;
+    font-size: 40px;
+}
+.headerC:nth-child(2){
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+.Hborder{
+    height: 4px;
+    border: 0 none;
+    background-color: #000000;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+.about{
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 100px;
+    width: 70%;
+
+    text-align: center;
+    font-size: 25px;
+}
+.links{
+    text-decoration: none;
+
+    transition-duration: 0.5s;
+}
+.links:hover{
+    color: #ff1900;
+}
+.Ctable{
+    border-collapse: collapse;
+    border-style: none;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 50px;
+
+    padding: 0;
+    margin: 0;
+
+}
+.linkTable{
+    border-collapse: collapse;
+    border-style: solid;
+
+    text-align: center;
+    font-size: 25px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 100px;
+
+    padding: 10px;
+}
+.tHeader{
+    font-size: 30px;
+    white-space: nowrap;
+
+    margin-top: 25px;
+
+}
+
+#darkM{
+    border-style: none;
+    border-radius: 5px;
+
+    transition-duration: 600ms;
+
+    float: left;
+
+    position: absolute;
+
+    top: 5px;
+    left: 5px;
+
+    padding: 5px 10px;
+
+    background-color: #822116;
+    color: #FFFFFF;
+
+    font-size: 17px;
+}
+#darkM:hover{
+    background-color: #000000;
+}
+
+
+.darkMode{
+    background-color: #000000;
+    color: #FFFFFF;
+
+    border-color: #FFFFFF;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    color: #000000;
+    background-color: #FFFFFF;
+
+    border-color: #000000;
+
+    transition-duration: 600ms;
+}
+.PyHeader{
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 255), rgba(0, 255, 0, 255));
+    font-size: 20px;
+}
+.PyHeader:first-child{
+    padding-top: 20px;
+    font-size: 40px;
+}    
+.PyHeader:last-child{
+    padding-bottom: 20px;
+}
+.backbtn{
+    position: absolute;
+
+    float: left;
+
+    top: 10px;
+    left: 10px;
+
+    padding: 5px 10px;
+
+    font-size: 20px;
+    text-decoration: none;
+
+    color: #000000;
+    background-color:rgb(100, 200, 90);
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 5px;
+
+    transition-duration: 0.5s;
+
+}.backbtn:hover{
+    background-color: #822116;
+}
+.underline{
+    padding: 0;
+    margin: 0;
+    height: 3px;
+
+    border: none 0;
+    background-color: #000000;
+}
+.PyTable{
+    margin-left: 20px;
+    margin-right: 20px;
+
+    text-align: center;
+
+    font-size: 17px;
+
+    border-style: solid;
+    border-color: #000000;
+    border-collapse: collapse;
+}
+.PyTable th{
+    font-size: 20px;
+    font-weight: bold;
+}
+.PyTable td{
+    padding: 10px;
+}
+#downloadBTN td{
+    padding: 0;
+}
+
+.PyTable a{
+    text-decoration: none;
+
+    width: 100%;
+    padding: 13px 22px;
+
+    color: #000000;
+}
+#downloadBTN{
+    background-color: #bbbbbb;
+
+    transition-duration: 0.4s;
+}
+#downloadBTN:hover{
+    background-color: #444444;
+}
