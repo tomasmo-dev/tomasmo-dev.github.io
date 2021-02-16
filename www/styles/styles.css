@@ -180,6 +180,8 @@ html, body{
     font-weight: bold;
 }
 .PyTable td{
+    font-size: 21px;
+    font-weight: 700;
     padding: 10px;
 }
 .PyTable a{
