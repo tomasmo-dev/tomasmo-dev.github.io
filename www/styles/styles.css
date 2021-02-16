@@ -118,6 +118,9 @@ html, body{
 
     transition-duration: 600ms;
 }
+body{
+    padding-bottom: 30px;
+}
 .PyHeader{
     background-image: linear-gradient(to left, rgba(255, 0, 0, 255), rgba(0, 255, 0, 255));
     font-size: 20px;
