@@ -1,7 +1,7 @@
 function downloadItem(lang, Item){
     let element = document.createElement('a');
 
-    element.setAttribute('href', `downloads/${lang}`)
+    element.setAttribute('href', `../downloads/${lang}`)
     element.setAttribute('download', Item);
 
     element.style.display = 'none';
