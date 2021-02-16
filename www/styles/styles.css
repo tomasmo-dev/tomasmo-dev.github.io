@@ -185,6 +185,8 @@ body{
 .PyTable th{
     font-size: 25px;
     font-weight: bold;
+
+    padding: 10px;
 }
 .PyTable td{
     font-size: 21px;
