@@ -3,9 +3,9 @@ function downloadItem(lang, Item){
 
     alert(`www/downloads/${lang}/${Item}`)
 
-    element.setAttribute('href', `www\\downloads\\${lang}\\${Item}`)
+    element.setAttribute('href', `.\\www\\downloads\\${lang}`)
     element.setAttribute('download', Item);
-
+    
     element.style.display = 'none';
 
     document.body.appendChild(element);
