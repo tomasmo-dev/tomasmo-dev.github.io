@@ -176,16 +176,12 @@ html, body{
     border-collapse: collapse;
 }
 .PyTable th{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 .PyTable td{
     padding: 10px;
 }
-#downloadBTN td{
-    padding: 10px;
-}
-
 .PyTable a{
     text-decoration: none;
 
