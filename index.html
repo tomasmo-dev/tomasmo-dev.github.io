@@ -1,52 +1,31 @@
 <html>
     <head>
-        <link rel="stylesheet" href="www/styles/styles.css">
-        <title>Programming Projects</title>
-        <script src="www/scripts/main.js"></script>
+        <title>Py server</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" href="webIcon.jpg">
     </head>
     <body>
-        <div class="headerC">
-            <h2 class="headerC">Project main page!</h2>
-            <h4 class="headerC">All projects listed here are made by me.</h4>
-            <hr class="Hborder" id="HeadBorder">
+
+        <div class="piServer">
+
+            <h1>Raspberry Pi server</h1>
+            <h3>Made using : python Socket module</h3>
         </div>
-        <button id="darkM" onclick="darkToggle()">Dark | Light Mode</button>
 
-        <table class="Ctable">
-            <tr class="Ctable">
-                <th class="Ctable"><h3 class="tHeader">Projects : </h3></th>
-                <th class="Ctable"><h3 class="tHeader">About : </h3></th>             
-            </tr>
-            <tr class="Ctable">
-                <td class="Ctable">
-                    <table class="linkTable">
-                        <tr class="linkTable">
-                            <th class="linkTable">Programming Language</th>
-                        </tr>
-                        <tr class="linkTable">
-                            <td class="linkTable"><a href="www/projects/java_projects.html" class="links">Java</a></td>
-                        </tr>
-                        <tr class="linkTable">
-                            <td class="linkTable"><a href="www/projects/python_projects.html" class="links">Python</a></td>
-                        </tr>
-                        <tr class="linkTable">
-                            <td class="linkTable"><a href="www/projects/cs_projects.html" class="links">c#</a></td>
-                        </tr>
-                    </table>
-            </td>
-                <td class="about">
-                    <div class="about">
-                    <p >
-                        On this page you can find all my public projects
-                        that i made. Some projects might not work because of old libraries.
-                        The projects arent well bug tested.
-                    </p>
-                </div>
-            </td>
-            </tr>
-        </table>
-        
-        
+        <div>
+            <!--Dark Mode Switching-->
+            <button class="mode-Button" id="lightSwitch" onclick="darkModeToggle()">Light|Dark Mode</button>
+        </div>
 
+        <div class="githubPromo">
+            <p>Code can be found on my Github repository.</p>
+        </div>
+        
+        <div class="btnCopy" id="copy_link">
+            <p class="btnCopytext">Go to Github profile</p>
+        </div>
+
+        <script src="main.js"></script>
+        <noscript>JavaScript not supported!</noscript>
     </body>
 </html>
